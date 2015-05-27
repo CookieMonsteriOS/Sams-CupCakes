@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Cup Cakes">
+<meta name="keywords" content="Cakes,Food,Food love, instaFood">
+<meta name="author" content="Sam chaudry">
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/MyStyles.css">
+<title>Sam's Cup Cake Snack Shack</title>
+</head>
+<body>
+<!-- MAIN CONTENT -->
+<div class="container-fluid">
+	<h1>Welcome to Sam's Cup Cakes</h1>
+	<br>
+	<ul class="nav nav-pills nav-justified">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Cup cakes</a></li>
+		<li><a href="#">Locations</a></li>
+		<li><a href="#">Offers</a></li>
+	</ul>
+	<br>
+	<div>
+	<p>Thanks for stopping by and checking out my creations. Here you can see some of my delcious cupcakes and let me know what you all think of my baking skills. </p>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p class="sectionTitle">Cup cake of the week</h2>
+			<p>Ok so here's my cupcake of the week. This is a perfect blend of Avocado and Chocolate blended together to make a wonderful cupcake with unique flavours. </p>
+			<img class="img-responsive" src="img/cupcake1.jpg" alt="cupcakes">
+		</div>
+		<div class="col-md-6">		
+		<p class="sectionTitle">Reasons to try these:</h2>
+		<ul class="factsList">
+			<li>Avocados are one of the only fruits that contain heart-healthy monounsaturated fat (the good-for-you fat) that helps boost good (HDL) cholesterol and lowers bad (LDL) cholesterol.</li>
+			<br>
+			<li>An avocado serving size is 50 calories, which works out to be 3 thin slices or 2 tablespoons mashed. There are fewer calories than the same amount of butter, mayonnaise, sour cream, peanut butter, almond butter, olive oil, and coconut oil — PLUS avocado has over 20 vitamins and minerals to upgrade your natural diet! Use avocado as a substitute today!.</li>
+			<br>
+			<li>Avocados are naturally FULL of nutrition, so there's no need for special labels. They're full of flavor; think of all of the meals you can healthify with avocado!
+			</li>
+			<br>
+			<li>
+			Their thick skin protects them; it's natural packaging! You can't eat the skin, but it shields the green goodness inside, making avocados perfect for travel.	
+			</li>
+		</ul>
+		</div>
+	</div>
+	<div>
+	<br>
+	<p class="sectionTitle">More of my creations:<p/>	
+	<p>Enjoy some of my awsome cupcakes which are freshly baked daily. Check out 3 of my new crazy creations below and let me know what you think.</p>
+	
+	<div class="row">
+		<div class= "col-md-4">	
+			<p class="cupcakeTitles">Jalapeno Cup Cake</p>	
+			<img class="img-responsive" src="img/cupcake2.jpg" alt="cupcakes">
+		</div>		
+		<div class= "col-md-4">
+				<p class="cupcakeTitles">Bacon and Cream</p>	
+			<img class="img-responsive" src="img/cupcake3.jpg" alt="cupcakes">
+		</div>	
+		<div class= "col-md-4">	
+				<p class="cupcakeTitles">Oreo Cookies and Cream</p>		
+			<img class="img-responsive" src="img/cupcake4.jpg" alt="cupcakes">
+		</div>		
+	</div>
+	</div>
+	<br>
+	<div>
+	 <p class="sectionTitle">Inside the Kitchen</p>	
+			<p>So if you are wondering who came up with this crazy idea? Well this company was the brian child of a young man who used to write code by day and bake by night - so here it is: Sam's Cup Cakes. 	</p>
+			<div ng-app="userweather" ng-controller="weatherController">
+				 <p ng-repeat = "item in items" ></li>
+				  <p class="localWeather">So come and stop by where the weather in Leeds is {{items['weather'][0].description}}. But rain or shine I always have great cupcakes.</a>
+			</div>				
+		<footer>
+			<p class="sectionTitle">Contact me:</h2>		
+			<p>Get Bakin' with me</p>
+			<p>Call me: 0113 - CUP-Cake</p>
+		</footer>
+	</div>
+	<!-- Angular.js -->
+    <script src="js/angular.js"></script>
+    <script src="js/weatherCtrl.js"></script>
+</body>
+</html>

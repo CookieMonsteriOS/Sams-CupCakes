@@ -1,0 +1,93 @@
+/*GLOBAL*/
+
+body {
+
+background-color:#420600;
+
+}
+
+h1 {
+
+font-family: sans-serif, Arial;
+text-align: center;
+color: #FAF3BC
+
+}
+
+
+p{
+
+font-size: 1.25em; 	
+font-family: sans-serif, Arial;
+color: #FAF3BC
+
+}
+
+li a{
+
+color: #FAF3BC;
+
+}
+
+ul {
+
+list-style: none;
+
+}
+
+img {
+
+border:8px solid;
+border-color: #FAF3BC; 
+ 
+}
+
+/*BOOTSTRAP OVERIDES*/
+
+.nav{
+
+font-size:1.50em
+
+}
+
+
+
+.sectionTitle{
+
+font-family: sans-serif, Arial;
+font-size: 1.50em; 
+color: #B4C34F
+
+}
+
+.factsList{
+
+color: #FAF3BC;
+font-size: 1.25em; 	
+list-style-type: circle;
+
+}
+
+.cupcakeTitles{
+
+font-family: sans-serif, Arial;
+font-size: 1.50em; 
+color: #B4C34F;
+
+}
+
+.localWeather{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
